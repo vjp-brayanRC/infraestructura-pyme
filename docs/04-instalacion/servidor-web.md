@@ -1,31 +1,25 @@
-# Servidor Web
+# servidor-web.md
 
-## Información general
+# Configuración del Servidor Web (Apache + PHP)
 
-El servidor web se encarga de gestionar las peticiones HTTP y servir contenido a los clientes conectados.
+## 1. Objetivo
 
-## Servicios instalados
+Este documento describe la instalación y configuración del servidor web Apache con soporte PHP dentro de una infraestructura LAMP para una PYME. Su finalidad es servir aplicaciones web de forma segura, estable y eficiente.
 
-| Servicio | Puerto | Estado |
-|-----------|---------|---------|
-| Apache2   | 80      | Activo  |
-| Nginx     | 8080    | Activo  |
-| HTTPS     | 443     | Activo  |
+---
 
-## Funciones principales
-- Publicación de páginas web
-- Gestión de certificados SSL
-- Balanceo de carga
-- Registro de logs
+## 2. Software utilizado
 
-## Tareas de mantenimiento
-1. Revisar logs del sistema
-2. Actualizar paquetes
-3. Comprobar certificados
-4. Reiniciar servicios si es necesario
+- Sistema operativo: Ubuntu Server 22.04
+- Servidor web: Apache2
+- Lenguaje backend: PHP
+- Módulo de base de datos: MySQL/MariaDB
 
-## Monitorización
-- Uso de CPU
-- Memoria RAM
-- Conexiones activas
-- Espacio en disco
+---
+
+## 3. Instalación de Apache
+
+### Actualizar repositorios
+
+```bash id="a1p1u1"
+sudo apt update

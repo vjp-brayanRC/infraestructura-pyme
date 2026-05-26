@@ -1,23 +1,25 @@
+# 05-operacion.md
+
 # Guía de Operación y Mantenimiento Diario
 
-## Objetivo
+## 1. Objetivo
 
-Este documento describe las tareas básicas de operación y mantenimiento diario de la infraestructura de la PYME basada en entorno LAMP. Su finalidad es garantizar la estabilidad, disponibilidad y correcto funcionamiento de los servicios desplegados.
+Este documento describe las tareas diarias necesarias para asegurar el correcto funcionamiento de la infraestructura LAMP de la PYME, garantizando la disponibilidad de los servicios y la detección temprana de incidencias.
 
 ---
 
-# 1. Comprobación del estado del servidor
+## 2. Servicios críticos a revisar
 
-Cada día se debe verificar que todos los servicios principales estén funcionando correctamente.
+Cada día se debe comprobar el estado de los siguientes servicios:
 
-## Servicios a comprobar
+- Apache (servidor web)
+- MySQL/MariaDB (base de datos)
+- SSH (acceso remoto)
+- Firewall UFW (seguridad del sistema)
 
-- Apache2
-- MySQL/MariaDB
-- SSH
-- Firewall (UFW)
+---
 
-## Comandos de comprobación
+## 3. Comprobación del estado del sistema
 
 ### Estado de Apache
 
