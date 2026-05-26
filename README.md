@@ -2,7 +2,7 @@
 
 ## Integrantes
 - Brayan Rodríguez
-- Nombre compañero
+- David Dominguez
 
 ## Objetivo
 Diseñar y documentar una infraestructura LAMP para una PYME.
