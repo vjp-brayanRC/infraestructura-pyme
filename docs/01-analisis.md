@@ -16,6 +16,7 @@ La empresa necesita una infraestructura LAMP segura y estable para alojar su pá
 
 ## Requisitos no funcionales
 
+
 - Seguridad
 - Disponibilidad
 - Facilidad de mantenimiento

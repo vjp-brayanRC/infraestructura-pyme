@@ -12,7 +12,6 @@ Cliente → HAProxy → Apache/PHP → MySQL
 | Apache | 2.4.60 | Servidor web |
 | PHP | 8.2 | Backend |
 | MySQL | 8.0 | Base de datos |
-| Netdata | Latest | Monitorización |
 
 ## Puertos utilizados
 
