@@ -8,8 +8,8 @@ Cliente → HAProxy → Apache/PHP → MySQL
 
 | Software | Versión | Función |
 |---|---|---|
-| Ubuntu Server | 22.04 | Sistema operativo |
-| Apache | 2.4.60 | Servidor web |
+| Ubuntu Server | 22.04 | Sistema operativo | Certbot para SSL |
+| Apache | 2.4.59 | Servidor web |
 | PHP | 8.2 | Backend |
 | MySQL | 8.0 | Base de datos |
 | Netdata | Latest | Monitorización |
